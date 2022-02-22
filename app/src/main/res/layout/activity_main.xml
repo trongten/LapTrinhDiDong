@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="359dp"
+        android:layout_height="65dp"
+        android:background="@drawable/txt"
+        android:drawableLeft="@drawable/user"
+
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="fill"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:text="Name"
+        android:textSize="21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="358dp"
+        android:layout_height="57dp"
+        android:text="Password"
+        android:drawablePadding="10dp"
+        android:textSize="21"
+        android:background="@drawable/txt"
+        android:drawableLeft="@drawable/es"
+        android:drawableRight="@drawable/ve"
+        android:ems="10"
+        android:inputType="textVisiblePassword|textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="35"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
